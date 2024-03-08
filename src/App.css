@@ -1,0 +1,37 @@
+.mainForm {
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: auto;
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    padding: 1rem;
+}
+.Todo_Line_Item {
+    border: 1px black solid;
+    width: 180px;
+    padding: 3px;
+    border-radius: 5px;
+    background-color: silver;
+
+}
+ul {
+    display: flex;
+    padding: 0;
+    width: auto;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+}
+li {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.strike {
+    text-decoration: line-through;
+}
